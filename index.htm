@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Namoz</title>
+    <link rel="icon" type="icon" href="./img/1733_U1RVRElPIEtBVCA0MTAtMjY.jpg">
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<body onload="loadPage()">
+    <div class="loader" id="main__load">
+        <div class="lds-roller" id="load">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <main>
+        <section>
+            <div class="loce ">
+                <h2 class="title">Namoz vaqtlari</h2>
+                <label class="switch">
+                    <input type="checkbox" class="checkbox">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+
+            <div class="container ">
+                <div class="main__content">
+                    <div class="test">
+                        <div class="sectionCity">
+                            <h3>Hududni tanlang:</h3>
+                            <select class="form__section">
+                                <option value="" disabled selected class="select"> </option>
+                            </select>
+                        </div>
+                        <div class="info">
+                            <div class="info__city">
+                                <h4>Mintaqa: </h4>
+                                <span class="cityLoc">Toshkent</span>
+                            </div>
+                            <div class="date">
+                                <span></span>
+                                <div class="today"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cards">
+                        <div class="card">
+                            <h4>Tong</h4>
+                            <img src="./img/0.svg" alt="icons-namaz">
+                            <div class="time"></div>
+                        </div>
+                        <div class="card">
+                            <h4>Quyosh</h4>
+                            <img src="./img/1.svg" alt="icons-namaz">
+                            <div class="time"></div>
+                        </div>
+                        <div class="card">
+                            <h4>Peshin</h4>
+                            <img src="./img/2.svg" alt="icons-namaz">
+                            <div class="time"></div>
+                        </div>
+                        <div class="card">
+                            <h4>Asr</h4>
+                            <img src="./img/3.svg" alt="icons-namaz">
+                            <div class="time"></div>
+                        </div>
+                        <div class="card">
+                            <h4>Shom</h4>
+                            <img src="./img/4.svg" alt="icons-namaz">
+                            <div class="time"></div>
+                        </div>
+                        <div class="card">
+                            <h4>Xufton</h4>
+                            <img src="./img/5.svg" alt="icons-namaz">
+                            <div class="time"></div>
+                        </div>
+                    </div>
+
+
+
+                    <h3 class="table__title" style="margin-top: 100px; color: orange;"> Haftalik Namoz Vaqtlari</h3>
+                    <div class="table__main">
+                        <table class="  table">
+                            <thead>
+                                <tr>
+                                    <th>Mintaqa</th>
+                                    <th>Sana</th>
+                                    <th>Bomdod</th>
+                                    <th>Quyosh</th>
+                                    <th>Peshin</th>
+                                    <th>Asr</th>
+                                    <th>Shom</th>
+                                    <th>Hufton</th>
+                                </tr>
+                            </thead>
+                            <tbody id="week">
+
+                            </tbody>
+                        </table>
+                    </div>
+
+
+
+
+                    <h3 class="table__title" style="color: orange; margin-top: 50px;">Oylik Namoz Vaqtlari</h3>
+                    <div class="table__main">
+                        <table class="  table" style="margin-bottom: 50px;">
+                            <thead>
+                                <tr>
+                                    <th>Mintaqa</th>
+                                    <th>Sana</th>
+                                    <th>Bomdod</th>
+                                    <th>Quyosh</th>
+                                    <th>Peshin</th>
+                                    <th>Asr</th>
+                                    <th>Shom</th>
+                                    <th>Hufton</th>
+                                </tr>
+                            </thead>
+                            <tbody id="month">
+
+                            </tbody>
+
+                        </table>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+</body>
+<script src="js/plugin.js"></script>
+<script src="js/region.js"></script>
+<script src="js/main.js"></script>
+
+</html>
